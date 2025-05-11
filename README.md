@@ -21,6 +21,8 @@ To identify and segment document elements like titles, authors, abstracts, table
 
 ## 📦 Dependencies
 
+Install via pip:
+
 Install via Conda:
 ```bash
 conda install detectron2 pytorch opencv omegaconf hydra-core -c conda-forge
