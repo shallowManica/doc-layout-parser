@@ -36,6 +36,7 @@ Install via pip:
 Install via Conda:
 ```bash
 conda install detectron2 pytorch opencv omegaconf hydra-core -c conda-forge
+```
 
 🚀 How to Run
 
