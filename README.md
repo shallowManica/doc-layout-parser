@@ -22,6 +22,16 @@ To identify and segment document elements like titles, authors, abstracts, table
 ## 📦 Dependencies
 
 Install via pip:
+```bash
+!pip install pycocotools
+!pip install layoutparser
+!pip install "layoutparser[effdet]"
+!pip install layoutparser torchvision
+!python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+!pip install layoutparser torchvision && pip install "git+https://github.com/facebookresearch/detectron2.git@v0.5#egg=detectron2"
+!pip install "layoutparser[paddledetection]"
+!pip install "layoutparser[ocr]"
+```
 
 Install via Conda:
 ```bash
