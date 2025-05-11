@@ -49,6 +49,7 @@ model = Detectron2LayoutModel(
     label_map={0: "Abstract", 1: "Author", ...}
 )
 ```
+```bash
 📄 Annotation Categories
 	•	Abstract
 	•	Author
@@ -59,3 +60,4 @@ model = Detectron2LayoutModel(
 	•	Sub-title
 	•	Table
 	•	Title
+```
