@@ -39,7 +39,7 @@ conda install detectron2 pytorch opencv omegaconf hydra-core -c conda-forge
 ```
 
 🚀 How to Run
-
+```bash
 # Inside parsing.ipynb
 from layoutparser.models import Detectron2LayoutModel
 
@@ -48,7 +48,7 @@ model = Detectron2LayoutModel(
     extra_config=["MODEL.ROI_HEADS.SCORE_THRESH_TEST", 0.8],
     label_map={0: "Abstract", 1: "Author", ...}
 )
-
+```
 📄 Annotation Categories
 	•	Abstract
 	•	Author
